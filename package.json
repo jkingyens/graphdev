@@ -1,0 +1,23 @@
+{
+  "name": "substrait",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "substrait": "cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "carlo": "^0.9.41",
+    "digraph": "^1.5.0",
+    "dockerode": "^2.5.7",
+    "react": "^16.6.3",
+    "react-digraph": "^5.3.8",
+    "react-dom": "^16.6.3"
+  }
+}
